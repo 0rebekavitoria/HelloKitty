@@ -2,17 +2,87 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Hello Kitty - Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Kitty</title>
   <link rel="stylesheet" href="exe.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <h1 class="title">Hello Kitty</h1>
-      <p>Teste de `exe.css` em um servidor local.</p>
-      <a class="btn" href="#">Botão</a>
-    </div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#">
+        <img src="logo.png" alt="Hello Kitty logo" class="logo-img">
+      </a>
+      <nav class="site-nav">
+        <a href="#">Início</a>
+        <a href="#games">Jogos</a>
+        <a href="#about">Sobre</a>
+        <a href="#news">Novidades</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <div class="header-right">
+        <button class="search-button" aria-label="Buscar">
+          <img src="Search.png" alt="Buscar">
+        </button>
+        <a class="nav-button login" href="#">Entrar</a>
+        <a class="nav-button signup" href="#">Cadastre-se</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <h1>Bem-vinda ao mundo da<br>Hello Kitty!</h1>
+          <p>Se divirta com os melhores jogos da hello kitty</p>
+          <a class="btn btn-primary" href="#games">
+            <img src="Heart.png" alt="Coração" class="btn-icon">COMEÇAR A JOGAR
+          </a>
+        </div>
+
+        <div class="hero-image">
+          <img src="image 2.png" alt="Hello Kitty jogando" class="hero-asset">
+        </div>
+      </section>
+
+      <section id="games" class="featured-games">
+        <div class="section-head">
+          <span>❤ JOGOS EM DESTAQUE ❤</span>
+        </div>
+
+        <div class="game-grid">
+          <article class="game-card">
+            <img src="image 4.png" alt="Cozinha da Hello Kitty" class="game-image">
+            <h2>Cozinha da Hello Kitty</h2>
+            <a class="btn btn-tertiary" href="#">
+              <img src="Game Controller.png" alt="Controle" class="card-icon">Jogar
+            </a>
+          </article>
+
+          <article class="game-card">
+            <img src="image 6.png" alt="Vestir a Hello Kitty" class="game-image">
+            <h2>Vestir a Hello Kitty</h2>
+            <a class="btn btn-tertiary" href="#">
+              <img src="Game Controller.png" alt="Controle" class="card-icon">Jogar
+            </a>
+          </article>
+
+          <article class="game-card">
+            <img src="image 3.png" alt="Memória da Hello Kitty" class="game-image">
+            <h2>Memória da Hello Kitty</h2>
+            <a class="btn btn-tertiary" href="#">
+              <img src="Game Controller.png" alt="Controle" class="card-icon">Jogar
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 HelloKitty. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
