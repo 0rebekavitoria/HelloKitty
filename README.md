@@ -1,32 +1,9 @@
 ﻿# Hello Kitty
 
-Uma página estática em HTML e CSS inspirada no universo da Hello Kitty. Este projeto apresenta um layout colorido, navegação simples, seção de jogos em destaque e um cabeçalho alinhado para desktop.
+Uma página feita em HTML e CSS inspirada no universo da Hello Kitty. Este projeto apresenta um layout colorido, navegação simples, seção de jogos em destaque.
 
 ## Sobre o projeto
 - index.html: estrutura da página
 - exe.css: estilos e layout
 - imagens: ilustrações da Hello Kitty e elementos visuais
-
-## Como abrir localmente
-1. Abra a pasta do projeto
-2. Clique em index.html
-3. O site será exibido no navegador
-
-## Publicação com GitHub Pages
-Este projeto pode ser publicado usando GitHub Pages a partir da branch main no diretório raiz.
-
-### Passos para ativar o GitHub Pages
-1. Acesse o repositório em GitHub
-2. Vá em Settings > Pages
-3. Selecione a branch main e o diretório /root
-4. Salve as alterações
-
-Após a configuração, a URL deve ficar semelhante a:
-
-https://0rebekavitoria.github.io/HelloKitty/
-
-## Contribuição
-Sinta-se à vontade para editar index.html e exe.css para personalizar cores, textos e imagens.
-
-## Licença
-Projeto de estudo e demonstração. Use livremente para aprendizado.
+- Projeto para o curso do transforme-se
